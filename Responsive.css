@@ -1,0 +1,810 @@
+/* ***************************************************************************************************************************** */
+/*                                                         RESPONSIVE:1024px                                                     */
+/* ***************************************************************************************************************************** */
+
+
+@media (max-width: 1024px) {
+    * {
+        font-size: 10px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .logo .logo-responsive {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .add img {
+        display: none;
+    }
+
+    .add i {
+        display: block;
+    }
+
+    .account {
+        display: none;
+    }
+
+/* ********************************************************************************************************* */
+/*                                               LOGO-LOCATION:1024                                          */
+/* ********************************************************************************************************* */
+
+    .container {
+        grid-template-columns: 50px 1fr 100px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .content-location {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+
+
+    }
+
+    .content-location {
+        align-items: center;
+        position: relative;
+    }
+
+    .content-location .location {
+        justify-content: start;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .content-location .location:hover {
+        border: none;
+        border-radius: none;
+    }
+
+    .content-location::before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        background: rgb(229, 216, 80);
+        top: 5px;
+    }
+
+    .location i {
+        font-size: 16px;
+    }
+
+    .location-text span {
+        display: inline !important;
+        color:  #000 !important ;
+        font-weight: 100 !important;
+    }
+
+    .location-text .black {
+        padding-left: 0 !important;
+        font-weight: 600 !important;
+    }
+
+    .flecha-responsive {
+        margin-right: 10px;
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+
+    .flecha-responsive i {
+        color: darkgoldenrod;
+    }
+
+
+
+/* ********************************************************************************************************* */
+/*                                                   NAV:1024px                                              */
+/* ********************************************************************************************************* */
+
+    .nav {
+        padding-left: 5px;
+    }
+
+    .nav-search input {
+        padding-left: 40px;
+        height: 32px;
+    }
+
+    .nav-search i {
+        left: 0;
+        top: 2px;
+        font-size: 15px;
+    }
+
+
+
+/* ********************************************************************************************************* */
+/*                                                  ADD:1024px                                               */
+/* ********************************************************************************************************* */
+
+
+
+    .add {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .add i {
+        font-size: 30px;
+    }
+
+/* ********************************************************************************************************* */
+/*                                                  BANNER:1024px                                            */
+/* ********************************************************************************************************* */
+
+    .banner-container {
+        height: 255px;
+    }
+
+    .banner-container i {
+        top: 98px;
+    }
+
+/* ********************************************************************************************************* */
+/*                                                  PAGO:1024px                                              */
+/* ********************************************************************************************************* */
+
+    .card-container {
+        grid-template-columns: 1fr .9fr 1fr 100px;
+    }
+
+    .cash-card {
+        display: none;
+    }
+
+    .credit-card {
+        grid-column: 1 / 2;
+    }
+    
+    .debit-card {
+        grid-column: 2 / 3;
+    }
+    
+    .no-card {
+        grid-column: 3 / 4;
+    }
+    
+    .icon-card {
+        grid-column: 4 / 5;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                               MEJORES-TIENDAS                                            */
+    /* ******************************************************************************************************** */
+
+    .mejores-tiendas-card:nth-child(5) {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************************************************** */
+
+@media (max-width: 855px) {
+
+    .card-container {
+        grid-template-columns: 1fr 1fr 100px;
+    }
+
+    .cash-card {
+        display: none;
+    }
+
+    .no-card {
+        display: none;
+    }
+
+    .credit-card {
+        grid-column: 1 / 2;
+    }
+    
+    .debit-card {
+        grid-column: 2 / 3;
+    }
+    
+    
+    .icon-card {
+        grid-column: 3 / 4;
+    }
+
+    /* ************************************* */
+    /*             BENEFICIOS                */
+    /* ************************************* */
+
+    .beneficios {
+        height: 360px;
+    }
+
+    .beneficios-container {
+        width: 388px !important;
+        margin: 0 8px;
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    .beneficios-content .hbo {
+        display: none;
+    }
+
+    .beneficios-content {
+        grid-template-columns: 1fr !important;
+        height: calc(100% - 100px);
+        padding: 5px 2px;
+    }
+
+    .beneficios-content .disney {
+        grid-column: 1 / 2;
+        width: 100%;
+        height: 100%;
+    }
+
+    .title-beneficios-container a {
+        display: none;
+    }
+
+    .container-ver-beneficios {
+        display: flex;
+    }
+
+    .beneficios-content .beneficios-text {
+        display: none;
+    }
+
+    .beneficios-content .disney {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .title-beneficios-container h3 {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .beneficios-content .disney, .beneficios-content .hbo, .beneficios-content .paramount {
+        border-radius: 0;
+    }
+
+    /* ************************************** */
+    /*              ANUNCIO                   */
+    /* ************************************** */
+
+    .publicidad-container .envio {
+        display: none;
+    }
+
+    .anuncio .publicidad-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                               MEJORES-TIENDAS                                            */
+    /* ******************************************************************************************************** */
+
+    .mejores-tiendas-card:nth-child(4) {
+        display: none;
+    }
+
+
+    /* ******************************************************************************************************** */
+    /*                                          CATEGORIAS-POPULARES                                            */
+    /* ******************************************************************************************************** */
+
+    .categorias-content .cat-7, .categorias-content .cat-14 {
+        display: none;
+    }
+
+    .categorias-content {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+
+    /* *********************************************************** */
+    /*                      FOOTER                                 */
+    /* *********************************************************** */
+
+    .ayuda {
+        justify-content: center;
+    }
+
+    .ayuda .imagenes-container {
+        display: none;
+    }
+
+    .menu-desplegable {
+        display: none;
+    }
+
+    .copyright-container .footer-nav {
+        display: none;
+    }
+
+
+    .copyright-container .copy::before {
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        background: rgb(235, 235, 235);
+        top: 0;
+        left: 0;
+    }
+
+}
+
+/* *********************************************************************** */
+
+@media (max-width: 640px) {
+
+    .card-container {
+        grid-template-columns: 1fr 100px;
+    }
+
+    .cash-card {
+        display: none;
+    }
+
+    .no-card {
+        display: none;
+    }
+
+    .debit-card {
+        display: none;
+    }
+
+    .credit-card {
+        grid-column: 1 / 2;
+    }
+    
+    .icon-card {
+        grid-column: 2 / 3;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                               MEJORES-TIENDAS                                            */
+    /* ******************************************************************************************************** */
+
+    .mejores-tiendas-card:nth-child(3) {
+        display: none;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                          CATEGORIAS-POPULARES                                            */
+    /* ******************************************************************************************************** */
+
+    .categorias-content .cat-5, .categorias-content .cat-12 {
+        display: none;
+    }
+
+    .categorias-content {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+}
+/* *************************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************************************************************** */
+/*                                  RESPONSIVE 768px                                       */
+/* *************************************************************************************** */
+
+
+
+
+
+
+/* *************************************************************************************** */
+/*                                  CARD-ITEM-RESPONSIVE                                   */
+/* *************************************************************************************** */
+
+@media (max-width: 1200px) {
+
+    .card-5, .segundo-card-5, .tercer-card-5, .sexto-card-5 {
+        display: none;
+    }
+    
+    .card-item-container {
+        width: 956px;
+    }
+
+    /* ************************************* */
+    /*             BENEFICIOS                */
+    /* ************************************* */
+
+    .beneficios-content .paramount {
+        display: none;
+    }
+
+    .beneficios-content {
+        grid-template-columns: repeat(2, 385px);
+    }
+
+    .beneficios-container {
+        width: 800px;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                                   HISTORIAL                                              */
+    /* ******************************************************************************************************** */
+
+    .historial-container {
+        width: 956px;
+    }
+
+    .historial-card-content .historial-7 {
+        display: none;
+    }
+
+    .historial-card-content {
+        gap: 5px !important;
+    }
+
+    /* ************************************************************** */
+    /*                           IMPORTANTE                           */
+    /* ************************************************************** */
+
+
+    .arrow-container {
+        display: none;
+    }
+
+
+    /* ************************************************************** */
+    /*                              FOOTER                            */
+    /* ************************************************************** */
+
+    .footer-card .pago, .footer-card .envio, .footer-card .seguridad {
+        padding: 40px 10px;
+    }
+
+}
+
+@media (max-width: 956px) {
+
+    .card-4, .segundo-card-4, .tercer-card-4, .sexto-card-4{
+        display: none;
+    }
+
+    .card-item-container {
+        width: 712px;
+    }
+
+    /* *************************************************************** */
+    /*                          DESCUBRI                               */
+    /* *************************************************************** */
+
+    .card-mt .img {
+        display: none;
+    }
+
+    .card-mt {
+        grid-template-columns: 1fr;
+    }
+
+    .card-text-mt {
+        grid-column: 1 / 2;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                                   HISTORIAL                                              */
+    /* ******************************************************************************************************** */
+
+    .historial-container {
+        width: 712px;
+    }
+
+    .historial-card-content .historial-6, .historial-card-content .historial-5 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 740px) {
+
+    .card-3, .segundo-card-3, .tercer-card-3 {
+        display: none;
+    }
+
+    .card-item-container {
+        width: 468px;
+    }
+
+    /* ****************************************************************** */
+    /*                         BANNER-OFFERT                              */
+    /* ****************************************************************** */
+
+    .banner-offert-container .banner-ml {
+        display: none;
+    }
+
+    .banner-offert-container .offert-ml {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-image: url("https://http2.mlstatic.com/D_NQ_855495-MLA53562186755_022023-OO.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .offert-ml .offert-ml-img {
+        display: block;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                          CATEGORIAS-POPULARES                                            */
+    /* ******************************************************************************************************** */
+
+    .categorias-content .cat-6, .categorias-content .cat-13 {
+        display: none;
+    }
+
+    .categorias-content {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                                   HISTORIAL                                              */
+    /* ******************************************************************************************************** */
+
+    .historial-container {
+        width: 468px;
+    }
+
+    .historial-card-content .historial-4 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 468px) {
+
+    .btn-more {
+        display: none;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .credit-card {
+        grid-column: 1 / 2;
+
+    }
+
+    /* ************************************** */
+
+    .card-2, .segundo-card-2, .tercer-card-2 {
+        display: none;
+    }
+
+    .card-item-container {
+        width: 224px;
+    }
+
+    .card-item .envio {
+        display: none;
+    }
+
+    .card-item .description {
+        display: block;
+    }
+
+    /* ************************************** */
+    /*              ANUNCIO                   */
+    /* ************************************** */
+
+    .publicidad-container .star {
+        display: none;
+    }
+
+    .anuncio .publicidad-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* ****************************************************************** */
+    /*                         BANNER-OFFERT                              */
+    /* ****************************************************************** */
+
+    .offert-ml .offert-ml-img {
+        display: none;
+    }
+
+    /* ****************************************************************** */
+    /*                              DESCUBRI                              */
+    /* ****************************************************************** */
+
+    .descubre {
+        height: 570px;
+    }
+
+    .descubre-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 250px);
+        gap: 10px;
+    }
+
+    .card-manicure {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .card-tv {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                          CATEGORIAS-POPULARES                                            */
+    /* ******************************************************************************************************** */
+
+    .categorias-content .cat-4, .categorias-content .cat-11 {
+        display: none;
+    }
+
+    .categorias-content {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                                   HISTORIAL                                              */
+    /* ******************************************************************************************************** */
+
+    .historial-container {
+        width: 368px;
+    }
+
+    .historial-card-content .historial-3 {
+        display: none;
+    }
+
+    .historial-1 {
+        margin-left: 15px;
+    }
+
+    .historial-2 {
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width: 368px) {
+
+    /* ******************************************************************************************************** */
+    /*                                          CATEGORIAS-POPULARES                                            */
+    /* ******************************************************************************************************** */
+
+    .categorias-content .cat-3, .categorias-content .cat-10 {
+        display: none;
+    }
+
+    .categorias-content {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* ******************************************************************************************************** */
+    /*                                                   HISTORIAL                                              */
+    /* ******************************************************************************************************** */
+
+    .historial-container {
+        width: 280px;
+    }
+
+    .historial-card-content .historial-2 {
+        display: none;
+    }
+
+    .historial-container .historial-card-content {
+        justify-content: center;
+
+    }
+
+}
+
+
+
+
+/* *********************************************************** */
+/*                      FOOTER                                 */
+/* *********************************************************** */
+
+@media (max-width: 1900px ) {
+
+    .menu-desplegable-container::before {
+        content: none;
+    }
+
+    .menu-desplegable-container::after {
+        content: none;
+    }
+
+    .menu-desplegable:hover .menu-items-container {
+        padding: 40px 0;
+        display: flex;
+    }
+
+
+}
